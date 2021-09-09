@@ -1,0 +1,83 @@
+body{
+    background-color: cadetblue;
+}
+.wrapper{
+    width: 900px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.tittle{
+    margin: 0px;
+    font-size: 40px;
+    color:cornflowerblue;
+    margin-top: 20px;
+}
+.sub-tittle{
+    margin: 0px;
+    font-size: 25px;
+    color:dimgray;
+    margin-top: 10px;
+}
+.box{
+    width: 300px;
+    height: 380px;
+    background-color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 520px;
+    border-radius:5px;
+}
+.input{
+    width: 295px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-bottom:3px solid gray;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-top: 20px;
+    outline: none;
+}
+.select{
+    width: 298px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-bottom:3px solid gray;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-top: 30px;
+    outline: none;
+}
+.label{
+    margin-left: 10px;
+    font-size:18px;
+    color: rgb(197, 71, 71);
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+.button{
+    width: 300px;
+    height: 50px;
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.tittle2{
+    margin: 0px;
+    font-size: 25px;
+    color:cornflowerblue;
+    margin-top: 30px;
+    padding-left: 5px;
+}
